@@ -1,0 +1,35 @@
+# Dependencies and build output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+client/Admin
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and local state
+*.log
+.DS_Store
+coverage/
+
+# Editors
+.vscode/
+.idea/
+
+# Local databases and credentials
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+credentials.json
+service-account*.json
